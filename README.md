@@ -1,4 +1,3 @@
-# model_motorcycle
 # Project: Self-Balancing Model Motorcycle
 
 A multi-phase plan to build a self-balancing, and eventually autonomous, model motorcycle.
