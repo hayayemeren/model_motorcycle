@@ -9,8 +9,8 @@ A multi-phase plan to build a self-balancing, and eventually autonomous, model m
 ### Initial Build Components
 
 - [x]  **Microcontroller:** Raspberry Pi Pico W
-- [x]  **Main Battery:** Makita 18V
-- [x]  **Voltage Regulator:** 5V BEC (Battery Eliminator Circuit) or Buck Converter
+- [x]  **Main Battery:** Makita 18V 3Ah
+- [x]  **Voltage Regulator:** DC-DC Step-Down Modül XL4016 300W
 
 ### Components to Upgrade the System
 
@@ -27,7 +27,7 @@ A multi-phase plan to build a self-balancing, and eventually autonomous, model m
 
 The goal of this phase is to create a functional, remote-controlled vehicle without the complexity of self-balancing.
 
-- [ ]  **Assemble Core Components:** Mount the Pico W, Makita 18V, BEC, and motors onto the chassis.
+- [ ]  **Assemble Core Components:** Mount the Pico W, Makita 18V, DC-DC Step-Down Modül XL4016 300W, and motors onto the chassis.
 - [x]  **Develop Wi-Fi Communication:**
     - [x]  Set up a socket server on the Pico W to listen for commands.
 - [x]  **Write Modular Code:**
